@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ead85ac117.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body">
+
+    <div class="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul> 
+                <i class="fa-solid fa-bars" onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-container">
+
+                <div class="header-img">
+                    <img src="eshaimage.png" alt="">
+                </div>
+                <div class="header-text">
+                    <p>CS/student</p>
+                  
+                    <h1>Hi,I'm <span>Esha Gunjekar</span> <br> from Yavatmal</h1>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!---about-->
+    <div class="about">
+        <div class="conainer">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.jpeg" alt="">
+                </div>
+                <div class="about-col-2">   
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm a pre-final computer science Student pursuing B-Tech from Usha Mittal Institute of Technology, SNDT Mumbai.  Currently, a Summer Intern <P2  class="p2">@BARCLAYS </P2>  <br>
+                        An innovative thinker, initiative taker grounded and solution oriented
+computer programmer . Adept at motivating self and others .
+Passionate about learning new things .</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML, CSS, JavaScript (basics), Bootstrap </li>
+                            <li><span>Languages</span><br>C++,Java(basics),MySQL (basics)</li>
+                            <li><span>Fundamental CS</span><br>DBMS,OOPS,OS</li>
+                            <li><span>Familiar OS</span><br>Ubuntu,windows</li>
+                            
+                        </ul>
+                    </div>
+                     <div class="tab-contents" id="experience"> 
+                        <ul>
+                            <li><span>2023</span><br>Summer Intern @BARCLAYS</li>
+                            
+                        </ul>
+                    </div> 
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Current</span><br>Usha Mittal Institute of Technology,Mumbai</li>
+                            <li><span>2020 - 83.2%</span><br>Narayana Vidyalayam</li>
+                            <li><span>2018 - 82%</span><br>Mount Carmel Coonvent School,Cement Nagar</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--project-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My projects </h1>
+            <div class="services-list">
+                <div  class="div"> 
+                    <i class="fa-regular fa-heart"></i>
+                    
+                    <h2 >CARDIOCARE PROJECT  </h2>
+                    <img src="heart.png" height="300" width="300" alt="">
+                    <p>The purposed website is made by me and my two team-mates as we participated in a Hackathon. It is 
+                        to get regular and affordable heart checkup and help in 
+                        emergency ,near by you. <br> Technologies used - HTML, CSS Javascript abd Bootstrap</p>
+               
+               <a href="https://new-repo-sigma.vercel.app/" download class="btn btn2">Learn More</a>
+                </div>
+               
+                <div>
+                    <i class="fa-solid fa-stethoscope"></i>
+                    <h2>PCOD ANALYSIS AND DETECTION</h2>
+                    <img src="pcod.jpg" height="300" width="300" alt="">
+                    <p> This was our(group)  mini-project in Pre-final Year. <br> The main objective of this project is
+                         detecting PCOD and comparing the factors of PCOD in healthy women and
+                        women suffering from PCOD.
+                        <br>
+                        Technologies used -Machine learning and Python.
+                        
+                          </p>
+                    <a href="https://sanjana271.github.io/PCOD/" download class="btn btn2">Learn More</a>
+
+                </div>
+                <div>
+                    
+                    <i class="fa-sharp fa-regular fa-user"></i>
+                    <h2>Portfolio  <br> </h2>
+                    <img src="https://source.unsplash.com/300x300/?portfolio" alt="">
+                    <p>I am dedicated to continuous growth and learning, always seeking new opportunities to expand my horizons and develop my skills. </p>
+               <a href="#" class="btn btn2">learn more </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!---contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    
+                    <p >eshagunjekar2312@gmail.com </p>
+                    <div class="social-icons">
+                        <a href="https://github.com/eshagunjekar"> 
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/esha-g-5b2619225
+                        "> 
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <a href="eshacv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                 <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name " required>
+                    <input type="email" name="email" placeholder="Your Email " required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                 </form>
+                 <span id="msg"></span>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>copyright @Esha <i class="fa-solid fa-heart"></i> 2023 </p>
+        </div>
+    </div>
+
+<script>
+       var tablinks = document.getElementsByClassName("tab-links");
+       var tabcontents = document.getElementsByClassName("tab-contents");
+       function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+       }
+
+</script>
+
+
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwA-89B9MnU4sBhtQEV1MXg_YfSQh0O9FP4DHyneErn6cQMfgsuz5vYgGPS-KCdNEXo6Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.forms.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully."
+            setTimeout(function(){
+                msg.innerHTML = " "
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+
+
+
+</html>
